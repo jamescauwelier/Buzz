@@ -198,4 +198,9 @@ class Browser
             ));
         }
     }
+    
+    public function setLastResponse($lastResponse)
+    {
+        $this->lastResponse = $lastResponse;
+    }
 }
